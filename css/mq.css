@@ -1,0 +1,186 @@
+@media (max-width: 1400px) {
+
+.text-body {
+	font-size: 0.9em;
+}
+.content-headings {
+	text-align: left;
+}
+.content-container {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 20%;
+  padding-top: 20%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.location-container {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.charles-heading {
+  font-family: 'Old Standard TT', serif;
+  font-size: 6em;
+  color: #fff;
+}
+
+.chat-heading {
+ border-bottom: 0.5px solid #fff;
+ font-size: 6em;
+}
+
+.le-heading {
+ padding-bottom: 5%;
+ font-size: 6em;
+}
+
+.left-container-headings {
+  width: 50%;
+  height: 100%;
+  padding-top: 80%;
+  float: left;
+}
+
+.right-container-headings {
+  width: 50%;
+  height: 100%;
+  padding-top: 35%;
+  float: right;
+}
+
+.catchphrase h2 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 1em;
+  color: #fff;
+  text-align: left;
+  line-height: 200%;
+}
+
+.subheadings{
+  text-align: justify;
+  height: 100%;
+  padding-top: 95%;
+  padding-left: 10%;
+  padding-right: 20%;
+}
+
+#slide-select {
+  position: absolute;
+  bottom: 20px;
+  left: 85%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: white;
+}
+  
+}
+
+@media (max-width: 1130px) {
+
+.charles-heading {
+  font-family: 'Old Standard TT', serif;
+  font-size: 5em;
+  color: #fff;
+}
+
+.chat-heading {
+ border-bottom: 0.5px solid #fff;
+ font-size: 5em;
+}
+
+.le-heading {
+ padding-bottom: 5%;
+ font-size: 5em;
+}
+
+.catchphrase h2 {
+	padding-top: 45%;
+  font-family: 'Old Standard TT', serif;
+  font-size: 0.9em;
+  color: #fff;
+  text-align: left;
+  line-height: 200%;
+}
+
+.subheadings{
+  text-align: justify;
+  height: 100%;
+  padding-top: 95%;
+  padding-left: 10%;
+  padding-right: 20%;
+
+}
+
+#slide-select {
+  position: absolute;
+  bottom: 20px;
+  left: 82%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: white;
+}
+
+ .left-container-headings {
+  width: 50%;
+  height: 100%;
+  padding-top: 90%;
+  float: left;
+}
+
+.text-body {
+	font-size: 0.8em;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  
+  .slide-left-1, .slide-right-1 {
+  	display: none;
+  }
+
+  .mobile-landing-page {
+  	display: inline-block;
+  	padding: 20%;
+  	text-align: center;
+  }
+  .mobile-main-headings {
+  	font-size: 0.8em;
+  }
+
+  .mobile-subheadings {
+  	font-size: 0.5em;
+  }
+
+ #slide-select {
+  position: absolute;
+  bottom: 20px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: white;
+}
+
+
+  
+}
