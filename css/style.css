@@ -111,7 +111,7 @@ body {
 #slide-select {
   position: absolute;
   bottom: 20px;
-  left: 90%;
+  left: 85%;
   z-index: 100;
   display: flex;
   align-items: center;
