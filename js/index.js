@@ -27,7 +27,7 @@ var cycle = function cycle(index) {
 	nextIndex = currentIndex + 1 < $slides.length ? currentIndex + 1 : 0;
 };
 
-$(function () {
+$(function slideShow () {
 	currentIndex = 0;
 	nextIndex = 1;
 
